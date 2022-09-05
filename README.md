@@ -3,6 +3,11 @@
 
 LaTeX Beamer presentation template made for use with Overleaf.
 
+Preview:
+--------
+<img src="doc/title.png" width="90%" alt="title mockup"></br>
+<img src="doc/outline.png" width="90%" alt="outline mockup">
+
 Benefit:
 --------
 1. Includes compatibility with Okina.
