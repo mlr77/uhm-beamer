@@ -1,5 +1,5 @@
 # UHM - Beamer Presentation Template
-====================================
+=======================================================
 
 LaTeX Beamer presentation template made for use with Overleaf.
 
