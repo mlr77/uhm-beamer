@@ -1,0 +1,82 @@
+\documentclass{beamer}
+
+\batchmode
+
+\usepackage{amsmath,amssymb,enumerate,epsfig,bbm,calc,color,ifthen,capt-of}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar,graphicx}
+
+\DeclareRobustCommand{\okina}{%
+  \raisebox{\dimexpr\fontcharht\font`A-\height}{%
+    \scalebox{0.8}{`}%
+  }%
+}
+\newunicodechar{ʻ}{\okina}
+
+\usetheme{Berlin}
+\usecolortheme{uhm}
+
+\title{ʻŌlelo Hawaiʻi: The Hawaiian Language}
+\author{[kou inoa]}
+\date{\today}
+\pgfdeclareimage[height=0.5cm]{uhm-logo}{uhm-logo.pdf}
+\logo{\pgfuseimage{uhm-logo}\hspace*{0.3cm}}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\beamerdefaultoverlayspecification{<+->}
+% -----------------------------------------------------------------------------
+\begin{document}
+% -----------------------------------------------------------------------------
+
+\frame{\titlepage}
+
+\section[Outline]{}
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+% -----------------------------------------------------------------------------
+\section{Introduction}
+\subsection{Language Loss}
+\begin{frame}{Hawaiian Language Loss}
+  \begin{itemize}
+    \item 1896 law prohibiting teaching in public and private schools
+    \item Language loss coupled with cultural loss
+    \item Culture bomb by missionaries
+  \end{itemize}
+\end{frame}
+\begin{frame}{Revitalization}
+  The Revitalization:
+  \pause
+  \begin{itemize}
+    \item<2-> ‘Aha Pūnana Leo, immersion school in 1982
+    \item<3-> Created their own resources in ʻŌlelo Hawaiʻi
+    \item<4-> ʻŌlelo Hawaiʻi and English become official languages in 1993
+    \item<5-> Ka Papahana Kaiapuni, Dept. of Education public Hawaiian language immersion schools
+  \end{itemize}
+\end{frame}
+\begin{frame}{Colonialism and Militarism}
+  \begin{itemize}
+    \item<1-> 5.7\% of population speak ʻŌlelo Hawaiʻi 
+    \item<2-> US military controls 5\% of land in Hawaiʻi and 22.4\% of land on Oʻahu
+  \end{itemize}
+\end{frame}
+% -----------------------------------------------------------------------------
+\section{Conclusions}
+\subsection{How to Make a Difference?}
+\begin{frame}{Libraries}
+  Want to know more?
+
+  \begin{itemize}
+    \item Browse the Hawaiian Collection at Hamilton Library
+  \end{itemize}
+  
+\end{frame}
+% -----------------------------------------------------------------------------
+\end{document}
